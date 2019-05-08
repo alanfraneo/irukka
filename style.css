@@ -4,14 +4,34 @@
 }
 .subject {
     font-size: 110%;
-    font-weight: bold;
     padding-bottom: 5px;
 }
-button {
-    height: 30px;
-    width: 150px;
+#findPosts {
     outline: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 50px;
+    border: none;
+    font-weight: bold;
+    background-color: #3a62d6;
+    width: max-content;
+    cursor: pointer;
 }
 .user {
     font-style: italic;
+}
+#loader{
+    display: none;
+    margin-top: 20px;
+}
+body {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ececec;
+}
+#PostList {
+    background-color: #ffff;
+    margin-top: 10px;
 }

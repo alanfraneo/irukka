@@ -1,7 +1,7 @@
 {
-    "name": "forum_check",
+    "name": "Irukka",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Check page contents",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
