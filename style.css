@@ -1,0 +1,17 @@
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.subject {
+    font-size: 110%;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+button {
+    height: 30px;
+    width: 150px;
+    outline: none;
+}
+.user {
+    font-style: italic;
+}
