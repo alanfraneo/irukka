@@ -3,11 +3,11 @@
     "version": "1.0",
     "description": "Check page contents",
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+        "service_worker": "background.js"
     },
-    "permissions": ["storage", "declarativeContent", "activeTab", "https://pitstop.manageengine.com/"],
-    "page_action": {
+    "permissions": ["storage", "declarativeContent", "activeTab"],
+    "host_permissions": ["https://pitstop.manageengine.com/"],
+    "action": {
         "default_popup": "popup.html",
         "default_icon": {
             "16": "images/forum_test16.png",
@@ -22,5 +22,5 @@
         "48": "images/forum_test48.png",
         "128": "images/forum_test128.png"
     },
-    "manifest_version": 2
+    "manifest_version": 3
   }

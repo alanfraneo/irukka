@@ -19,6 +19,7 @@
 }
 .user {
     font-style: italic;
+    font-weight: bold;
 }
 #loader{
     display: none;

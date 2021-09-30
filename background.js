@@ -11,7 +11,7 @@ chrome.runtime.onInstalled.addListener(function() {
           pageUrl: {urlMatches: '.*'},
         })
         ],
-            actions: [new chrome.declarativeContent.ShowPageAction()]
+            actions: [new chrome.declarativeContent.ShowAction()]
       }]);
     });
 });
